@@ -25,7 +25,7 @@ if os.name == 'nt':  # Windows
     FOLDER_PATH = r"C:\Users\%USERNAME%\Documents\s3_upload"
 else:  # macOS/Linux
     FOLDER_PATH = os.path.expanduser("~/Documents/s3_upload")
-S3_BUCKET_NAME = "rkidder-data"
+S3_BUCKET_NAME = "my_bucket"
 S3_PREFIX = "s3_receive"
 MAX_RETRIES = 3  # Maximum number of retries for file uploads
 
